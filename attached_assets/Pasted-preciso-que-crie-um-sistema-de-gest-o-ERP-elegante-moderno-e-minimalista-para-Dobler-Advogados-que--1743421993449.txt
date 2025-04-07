@@ -1,0 +1,23 @@
+preciso que crie um sistema de gestão ERP elegante, moderno e minimalista para Dobler Advogados que utilize PostgreSQL e seja dividido em vários módulos com as suas funções a seguir:
+
+Tela de login inicial onde não haja opção de registro, o registro somente será realizado pelo administrador em um módulo interno de configurações, que poderá alterar senha e adicionar usuários de diferentes roles (Advogado(a), Financeiro, Secretária, Estagiário(a)), o usuário administrador por padrão será admin e a senha padrão será admin1983 que deverá ser acrescentado inicialmente no banco de dados.
+
+Sistema de CRM com kanban (pipeline) que possa arrastar os cards entre as colunas coloridas de novo lead, em contato, proposta enviada, negociação, convertido, perdido.
+Os leads poderão ser adicionados por um botão que irá requerer nome e contato do lead que será whatsapp, deverá ser etiquetado por assunto (Direito Bancário, Direito Empresarial, Direito Civil, Direito Criminal, Direito Administrativo, Direito do Consumidor, outros) e também por origem (Site, indicação, instagram, tiktok, facebook, google, outros).
+Os cards de leads deverão ter obrigatoriamente em seus detalhes um breve histórico dos últimos contatos com data do contato além de data de follow-up.
+Quando o lead for convertido, o sistema deve criar uma ficha de cliente com as informações do lead.
+
+Sistema de controle de casos:
+Os casos deverão ser atribuíveis a clientes existentes no banco de dados, etiquetados com o assunto (o mesmo dos leads) e com sua criação haverá criação automática de receita no módulo financeiro, com informações de valores cobrados e formas de pagamento.
+
+Sistema de tarefas:
+Deverá ser criado um módulo inteiro de gestão de tarefas que deverão ser atribuídas a clientes e também ao profissional responsável pelo acompanhamento, com sistema de notificação ao responsável e com controle de prazos divididos em escala de prioridade.
+
+Sistema financeiro:
+O sistema financeiro possibilitará criação de receitas que serão criadas automaticamente com a criação dos casos, e de despesas com obrigatoriedade de ter data de vencimento, descrição e balanços.
+
+Relatórios:
+Haverá um módulo de relatórios avançados completos com gráficos dos módulos de CRM, casos, tarefas e financeiro.
+
+Configurações:
+Aqui deverá ser possibilitado a gestão dos usuários, com alteração de senha e criação de novos usuários, além de haver um sistema de backup automático diário e outro backup manual do banco de dados para conferir segurança.
